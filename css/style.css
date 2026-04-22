@@ -1,0 +1,11 @@
+
+:root {
+    --x: 0px;
+    --y: 0px;
+}
+
+.turtle-img {
+    width: 15%;
+    transform: translate(var(--x), var(--y));
+    transition: transform 0.2s;
+}
