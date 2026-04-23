@@ -2,10 +2,12 @@
 :root {
     --x: 0px;
     --y: 0px;
+    --degree: 0deg;
 }
 
 .turtle-img {
     width: 15%;
-    transform: translate(var(--x), var(--y));
+    transform: translate(var(--x), var(--y)) rotateY(var(--degree));
     transition: transform 0.2s;
 }
+
